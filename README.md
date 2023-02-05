@@ -1,2 +1,2 @@
 # online-zoo
-online-zoo/pages/main/index.html
+https://tetiana-ket.github.io/online-zoo/pages/main/index.html
