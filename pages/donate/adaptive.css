@@ -1,0 +1,808 @@
+/* ----------small_desktop 1000px------------ */
+
+@media screen and (max-width: 1200px) {
+    .container_1160 {
+        max-width: 940px;
+        margin: 0 auto;
+    }
+    .header-wrap {
+        padding: 14px 11px 14px 0px;
+    }
+    .menu {
+        justify-content: start;
+    }
+    .logo-container {
+        margin-right: 6.5%;
+    }
+    .menu-list:not(:last-child) {
+        margin-right: 7%;
+    }
+    .start-screen {
+        height: 390px;
+        background: url('../../assets/images/panda_donate_1000.png') 0 0/cover no-repeat;
+    }
+    .info-title {
+        width: 88%;
+        margin-bottom: 30px;
+    }
+    .donation-info {
+        margin-bottom: 38px;
+    }
+    .pick-friend {
+        padding: 40px 0 30px 2px;
+    }
+    .pick-friend-content {
+        padding: 21px 50px 45px 46px;
+    }
+    .pick-title {
+        padding-right: 8px;
+        margin-bottom: 11px;
+    }
+    .animals-widget {
+        padding-left: 18%;
+    }
+    .animals-widget-counter {
+
+        gap: 5px;
+    }
+    .amount {
+        padding-left: 17px;
+        margin-bottom: 15px;
+    }
+    .amount-input {
+        background: url(../../assets/icons/dollar.svg) 97% 53% no-repeat transparent;
+    }
+    .progress-bar-container {
+        width: 96%; 
+        margin-left: 2%;
+    }
+    .progress-bar-input {
+        margin: 0 auto;
+        width: 95%;
+    }
+    .price-container {
+        width: 97.5%;
+        margin-left: 16px;
+        margin-bottom: 44px;
+        justify-content: space-between;
+    }
+    .price:not(:last-child) {
+        margin-right: 0;
+    }
+
+    .price:first-child {
+        display: none;
+    }
+    .price:not(:last-child) {
+        margin-right: 0;
+    }
+    .price:last-child {
+        margin-left: 19px;
+    }
+    .dot1 {
+        display: none;
+    }
+    .dot2 {
+        left: -1.5%;
+    }
+    .dot3 {
+        left: 14.5%;
+    }  
+    .dot4 {
+        left: 30.5%;
+    }
+    .dot5 {
+        left: 46.5%;
+    }
+    .dot6 {
+        left: 62.5%;
+    }
+    .dot7 {
+        left: 78.7%;
+    }
+    .dot8 {
+        left: 94.5%;
+    }
+    .amount-wrap {
+        padding-right: 0px;
+    }
+    .radio-form {
+        gap: 36px;
+        
+    }
+    .radio-label {
+        margin-right: 15px;
+    }
+    .feed-button {
+        display: inline-block;
+        align-self: center;
+        margin-bottom: 31px;
+        margin-left: 0;
+    }
+
+    /* FOOTER */
+    .footer {
+        padding: 40px 0px 43px;
+    }
+    .footer-container {
+        max-width: 940px;
+        padding: 0px;
+    }
+    .menu-footer-wrap {
+        width: 42%;
+        margin-right: 0px;
+    }
+    .social-menu-wrap {
+        display: flex;
+        justify-content: start;
+    }
+    .social-wrap {
+        margin-right: 20%;
+    }
+    .footer-menu>.menu-list:not(:last-child) {
+        margin-right: 43px;
+    }
+    .subscribe-author {
+        position: absolute;
+        bottom: -1px;
+        right: -1px;
+    }
+    .subscribe-wrap {
+        margin-right: 3.6%;
+    }
+}
+
+
+@media screen and (max-width: 940px) {
+
+    .container_1160 {
+        max-width: 900px;
+        padding: 0px 10px 0px 10px;
+    }
+    .header-wrap {
+        justify-content: space-between;
+    }
+
+    .logo-container {
+        margin-right: 4%;
+    }
+
+    header .logo-title {
+        width: 46.93px;
+        height: 29.03px;
+        padding: 0;
+        font-size: 12.2899px;
+        border: none;
+        background: url('../../assets/icons/bamboo.svg') 2px 10px no-repeat;
+    }
+    .header-nav {
+        width: 85%;
+    }
+    .menu-list {
+        font-weight: 400;
+        line-height: 140%;
+        padding: 0 3px;
+        transition: 0.5s;
+        row-gap: 5px;
+    }
+    .menu-list:not(:last-child) {
+        margin-right: 15px;
+    }
+    .designed-desk {
+        display: none;
+    }
+
+    .progress-bar-input {
+        width: 96%;
+    }
+
+    .footer-container {
+        max-width: 900px;
+        padding: 0px 10px;
+    }
+    .footer-menu>.menu-list:not(:last-child) {
+        margin-right: 20px;
+    }
+    .social-wrap {
+        margin-right: 10%;
+    }
+}
+
+
+/* ----------tablet 640px------------ */
+@media screen and (max-width: 740px) {
+    .container_1160 {
+        max-width: 640px;
+        padding: 0px 19px;
+    }
+    .header {
+        position: fixed;
+        z-index: 5;
+        background: #111115;
+    }
+    .header-wrap {
+        padding: 2px 0px 3px 0px;
+    }
+    .logo-container-burger{
+        display: inline-block;
+    }
+    .logo-container-burger .logo-title {
+        width: 65.6px;
+        height: 41.6px;
+        border: 0.8px solid var(--orange-color);
+        border-radius: 2px;
+        font-size: 15.2116px;
+        line-height: 130%;
+        color: var(--orange-color);  
+        background: url('../../assets/icons/bamboo_orange.svg') 8px 20px no-repeat;
+        margin-bottom: 30px;
+        transition: all 0.5s;
+    }
+
+    .logo-container-burger:hover .logo-title {
+        border: 2px solid var(--orange-hover);
+        color: var(--orange-hover);
+        font-weight: 500;
+    }
+
+    .header-nav {
+        position: fixed;
+        color:var(--main_text-color);
+        top: 0px;
+        right: 0px;
+        width: 100%;
+        height: 329px;
+        background-color: var(--white-color);
+        z-index: 11;
+        padding: 10px 0px 0px 10px;
+        transform: translateX(100%);
+        transition: 0.3s all linear;
+    }
+    .header-nav-active {
+        transform: translateX(0);
+    }
+
+    header .menu {
+        flex-direction: column;
+    }
+    header .menu-list {
+        font-weight: 400;
+        line-height: 140%;
+        font-size: 16px;
+        transition: 0.5s;
+        margin-right: 9%;
+        margin-bottom: 15px;
+    }
+    .designed-burger {
+        display: block;
+        font-weight: 400;
+    }
+    .header-burger {
+        display: block;
+    }
+    .header-nav-overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        z-index: 9;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+    .overlay-active {
+        display: block;
+    }
+    .header-menu-close-x {
+        width: 15px;
+        height: 15px;
+        position: absolute;
+        top: 15.54px;
+        right: 15.54px;
+        z-index: 12;
+    }
+    .header-menu-close-x:hover {
+        cursor: pointer;
+        color: var(--orange-hover);
+    }
+    .header-menu-close-x:hover .menu-close-x-line {
+        background: var(--orange-hover);
+        height: 3px;
+    }
+    .menu-close-x-line {
+        display: block;
+        height: 2px;
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        z-index: 13;
+        background: var(--orange-color);
+    }
+    .menu-close-x-line:first-child {
+        transform: translateY(-50%) rotate(45deg);
+    }
+    .menu-close-x-line:last-child {
+        transform: translateY(-50%) rotate(-45deg);
+    }
+
+   /* START SCREEN */
+   .start-screen {
+       height: 335px;
+       margin-top: 34px;
+       background: url('../../assets/images/panda_donate_1000.png') 57% 40%/cover no-repeat;
+    }
+
+    /*PICK FRIEND*/
+
+    .pick-friend {
+        padding: 29px 0 45px 2px;
+    }
+
+    .info-title {
+        width: 96%;
+        font-size: 24px;
+        margin-bottom: 16px;
+    }
+
+    .info-text {
+        margin-bottom: 29px;
+    }
+
+    .donation-info {
+        margin-bottom: 29px;
+    }
+
+    .pick-friend-content {
+        padding: 30px 0px 30px 0px;
+    }
+
+    .pick-title {
+        padding-right: 0px;
+        margin-bottom: 21px;
+    }
+
+    .pick-description {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .animals-widget-counter {
+        gap: 10px;
+    }
+    .animals-widget {
+        padding-left: 26px;
+        margin-bottom: 37px;
+    }
+    .x_icon {
+        margin-right: 65px;
+    }
+    .amount {
+        margin-bottom: 6px;
+        padding-left: 10px;
+    }
+    .progress-bar-container {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .progress-bar-input {
+        width: 88%;
+    }
+    .price:nth-child(2), .price:nth-child(3) {
+        display: none;
+    }
+    .dot1 {
+        display: none;
+    }
+    .dot2 {
+        display: none;
+    }
+    .dot3 {
+        display: none;
+    }
+    .dot4 {
+        left: 1.5%;;
+    }
+    .dot5 {
+        left: 23.2%;
+    }
+    .dot6 {
+        left: 44.8%;
+    }
+    .dot7 {
+        left: 66.5%;
+    }
+    .dot8 {
+        left: 88%;
+    }
+    .price-container {
+        width: 94%;
+        margin-bottom: 48px;
+    }
+    .price:last-child {
+        margin-left: 15px;
+    }
+    .amount-input {
+        width: 180px;
+        height: 42px;
+        padding: 2px 20px 3px 4px;
+        background: url(../../assets/icons/dollar.svg) 94% 38% no-repeat transparent;
+    }
+    .amount-wrap {
+        margin-bottom: 32px;
+    }
+    .radio-label::before {
+        left: -2px;
+        bottom: 3px;
+    }
+
+    /* FOOTER */
+    .footer {
+        padding: 12px 0px 6px;
+    }
+    .footer-container {
+        max-width: 640px;
+        padding: 0 2px 0 21px;
+    }
+    .logo-wrap {
+        margin-bottom: 34px;
+    }
+    .subscribe-wrap {
+        display: none;
+    }
+    .donate-button {
+        margin-bottom: 95px;
+    }
+    .social-wrap {
+        display: none;
+    }
+    .social-640px {
+        display: block;
+        position: absolute;
+        top: 0px;
+        left: 93%;
+    }
+    .social-item {
+        margin-bottom: 19px;
+    }
+    .subscribe-author {
+        position: absolute;
+        bottom: 0;
+        right: 18px;
+    }
+    .menu-footer-wrap {
+        width: 52%;
+    }
+    .footer-menu>.menu-list:not(:last-child) {
+        margin-right: 37px;
+    }
+    .menu-list {
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width: 615px) {
+    .progress-bar-input {
+        width: 85%;
+    }
+}
+
+
+/* ----------MOBILE 320px------------ */
+
+@media screen and (max-width: 500px) {
+    .container_1160 {
+        max-width: 320px;
+        padding: 0px 8px;
+    }
+
+    .header-wrap {
+        padding: 3px 2px 3px 2px;
+    }
+
+/* 
+    START SCREEN */
+    .start-screen {
+        height: 187px;
+        margin-top: 34px;
+        background: url('../../assets/images/panda_donate_1000.png') 42% 40%/cover no-repeat;
+    }
+
+    /*PICK FRIEND*/
+    .pick-friend {
+        padding: 29px 0 20px 2px;
+    }
+    .info-title {
+        line-height: 120%;
+        margin-bottom: 22px;
+    }
+    .info-text {
+        margin-bottom: 28px;
+        line-height: 138%;
+    }
+
+    .donation-info {
+        font-size: 24px;
+        margin-bottom: 29px;
+    }
+
+    .pick-friend-content {
+        padding: 21px 0px 20px 0px;
+    }
+
+    .pick-title {
+        font-size: 24px;
+        margin-bottom: 12px;
+    }
+
+    .pick-description {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    .animals-widget-counter {  
+        padding-top: 37px;
+        gap: 13px;
+    }
+    .counter {
+        gap: 9px;
+    }
+    .amount_of_days_donate {
+        font-size: 40.6015px;
+    }
+    .widget-text {
+        font-size: 9.02255px;
+    }
+    .animals-widget {
+        padding-left: 0px;
+        margin-bottom: 5px;
+    }
+    .panda {
+        width: 160px;
+        height: 138px;
+        background: url('../../assets/icons/panda_widget1.svg') 0 0/ cover no-repeat;
+    }
+    .panda-img {
+        display: none;
+    }
+    .x_icon-img {
+        display: none;
+    }
+    .x_icon {
+        width: 7.89px;
+        height: 7.89px;
+        left: -6px;
+        bottom: 9px;
+        margin-right: 30px;
+        background: url('../../assets/icons/x_icon.svg') 0 0/ cover no-repeat;
+    }
+
+    .amount {
+        margin-bottom: 8px;
+        padding-left: 0px;
+    }
+
+    .progress-bar-container {
+        margin-bottom: 6px;
+        height: 14px;
+    }
+    .progress-bar-input {
+        width: 86%;
+    }
+    .yellow-dot-cover {
+        width: 40px;
+        height: 60px;
+    }
+    .yellow {
+        width: 5px;
+        height: 5px;
+        top: 31%;
+        left: 3%;
+    }
+    .yellow-dot-cover::before {
+        width: 20px;
+        height: 20px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .yellow-dot-cover::after {
+        width: 11.48px;
+        height: 11.48px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .active-dot::before {
+        width: 20px;
+        height: 20px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .active-dot::after {
+        width: 11.48px;
+        height: 11.48px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .dot1 {
+        display: none;
+    }
+    .dot2 {
+        display: none;
+    }
+    .dot3 {
+        display: none;
+    }
+    .dot4 {
+        left: 0%;
+    }
+    .dot5 {
+        left: 21.6%;
+    }
+    .dot6 {
+        left: 43.3%;
+    }
+    .dot7 {
+        left: 64.5%;
+    }
+    .dot8 {
+        left: 86.4%;
+    }
+    .price {
+        font-size: 13px;
+    }
+    .yellow-dot-cover:hover .yellow::after {
+        visibility: visible;
+        box-shadow: none;
+    }
+    
+    .yellow-dot-cover:hover .yellow::before {
+        visibility: visible;
+        box-shadow: none;
+    }
+    .yellow::before {
+        width: 20px;
+        height: 20px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        transition: 0.5s all;
+    }
+    
+    .yellow::after {
+        width: 11.48px;
+        height: 11.48px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        transition: 0.3s all;
+    }
+    .price-container {
+        margin-left: 5px;
+        margin-bottom: 25px;
+    }
+    .amount-wrap {
+        margin-bottom: 28px;
+    }
+    .radio-form {
+        gap: 40px;
+        margin-bottom: 27px;
+    }
+    .feed-button {
+        width: 99.5%;
+    }
+
+    /* FOOTER */
+    .footer {
+        padding: 17px 0px 20px;
+    }
+
+    .footer-container {
+        max-width: 301px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .logo-wrap {
+        justify-content: center;
+        margin-bottom: 31px;
+    }
+
+    .footer .logo-title {
+        width: 150px;
+        height: 23px;
+        border: none;
+        padding: 4px 0px 0px 1px;
+        background: url('../../assets/icons/bamboo.svg') 82px 1px/10% no-repeat;
+        margin-bottom: 58px;
+    }
+
+    .social-640px {
+        display: flex;
+        top: 55px;
+        left: 18%;
+    }
+
+    .social-item:not(:last-child) {
+        margin-right: 30px;
+    }
+
+    .donate-button {
+        margin-left: 2px;
+        margin-bottom: 109px;
+        max-width: 293px;
+    }
+
+    .menu-footer-wrap {
+        width: 100%;
+        padding: 0px 0px 0px 9px;
+    }
+
+    .footer-menu {
+        width: 100%;
+    }
+
+    .footer-menu>.menu-list:not(:last-child) {
+        margin-right: 11%;
+    }
+
+    .subscribe-author {
+        bottom: 49px;
+        right: 0px;
+        font-weight: 100;
+        font-size: 15px;
+        line-height: 120%;
+    }
+
+}
+/* ----------LESS THEN 310px------------ */
+
+@media screen and (max-width: 310px) {
+    .radio-form {
+        gap: 5%;
+    }
+    .radio-label {
+        padding-left: 14px;
+    }
+    .panda {
+        width: 100px;
+        height: 90px;
+    }
+    .animals-widget-counter {
+        padding-top: 17px;
+        padding-left: 5px;
+        gap: 5px;
+    }
+    .amount_of_days_donate {
+        font-size: 30px;
+    }
+    .widget-text {
+        display: none;
+    }
+    .x_icon {
+        left: 10px;
+        bottom: 2px;
+        margin-right: 32px;
+    }
+    .donate-button {
+        display: inline-block;
+        align-self: center;
+        margin-bottom: 9px;
+        width: 98%;
+        font-size: 14px;
+    }
+    .subscribe-author {
+        display: none;
+    }
+    .share {
+        line-height: 120%;
+        align-self: center;
+        text-align: center;
+        font-size: 16px;
+    }
+    .social-item:not(:last-child) {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+}
